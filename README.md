@@ -3,7 +3,15 @@
 Ask movie questions, and get answers from a database of 5000 movies data
 sourced from TMDB via the TMDB-API.
 
-> Ill add screenshots soon.
+![New conv img](imgs/new_conv.jpg)
+
+![Mid conv img](imgs/mid_conv.jpg)
+
+![Dev opt](imgs/dev_settings_opts.jpg)
+
+> ![NOTE]
+> The settings are essentially dev opts, you can access them with the password
+> 1234.
 
 ## Models
 
