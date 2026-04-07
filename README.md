@@ -9,7 +9,7 @@ sourced from TMDB via the TMDB-API.
 
 ![Dev opt](imgs/dev_settings_opts.jpg)
 
-> ![NOTE]
+> [!NOTE]
 > The settings are essentially dev opts, you can access them with the password
 > 1234.
 
