@@ -55,27 +55,43 @@ See notebook in `notebooks/`
 > To do this, run `python -m data.data_engine`.
 > Select option [1], followed by batch-size according to ur GPU's memory spec.
 
-Setup ur env to run this project (macos):
+Tested system specs:
+* RAM >= 16GB
+* VRAM >= 16GB
 
 ```bash
-# Install postgresql
-brew install postgresql
-brew services start postgresql@18  # change version if required
+# Give perms to setup.sh (one time)
+chmod +x setup.sh
 
-# Install vector extension for psql
-brew install pgvector
-# Read pgvector docs to enable inside psql
+# Run the setup script
+./setup.sh
 
-# Setup python env
-uv ...
-# Just see uv docs
-
-uv sync
-
-# Ya done!
+# Choose 1/2/3 when prompted to setup env according to ur preferences
+# Once setup is done, you may start the app by running
+streamlit run app/main.py
 ```
 
-I also attached in requirements file if you wish to setup via pip.
+<!-- Setup ur env to run this project (macos): -->
+<!---->
+<!-- ```bash -->
+<!-- # Install postgresql -->
+<!-- brew install postgresql -->
+<!-- brew services start postgresql@18  # change version if required -->
+<!---->
+<!-- # Install vector extension for psql -->
+<!-- brew install pgvector -->
+<!-- # Read pgvector docs to enable inside psql -->
+<!---->
+<!-- # Setup python env -->
+<!-- uv ... -->
+<!-- # Just see uv docs -->
+<!---->
+<!-- uv sync -->
+<!---->
+<!-- # Ya done! -->
+<!-- ``` -->
+<!---->
+<!-- I also attached in requirements file if you wish to setup via pip. -->
 
 
 ## Additional notes
