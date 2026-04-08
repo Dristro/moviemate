@@ -36,7 +36,7 @@ System design/arch:
 > project... This image is slightly different from the current, implemented
 > architecture.
 >
-> Im dont really want to update the diagram rn, so... yeah.
+> I dont really want to update the diagram rn, so... yeah.
 
 ---
 
